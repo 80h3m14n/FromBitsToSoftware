@@ -38,10 +38,28 @@ Building and breaking things through projects, each one a step toward mastering 
 
 # Introduction to Programming
 
-> Basics, syntax, logic, control flow, data types, problem solving.
+This is the foundation of software development, where you learn to write instructions that computers can execute.
+
 Reflections on learning to think computationally
 
 
+### PL Syntax & logic
+- Control flow
+- Data types & variables
+- Functions
+- Arithmetic operations
+- Libraries
+- Problem solving.
+
+
+
+### Tooling
+
+- Integrated Development Environment  (IDE)
+- Package managers
+- Version managers
+- Compilers
+- Debuggers
 
 
 &nbsp;
@@ -52,7 +70,8 @@ Reflections on learning to think computationally
 How different paradigms shape how we think and write code.
 
 
-
+Choose a beginner-friendly language i.e python
+Build small projects
 
 &nbsp;
 
@@ -70,6 +89,21 @@ Brainfuck, Befunge, Malbolge, and more.
 
 > Low-level exploration. Understanding registers, memory, instructions, and control flow.
 Learning how high-level languages translate into machine operations.
+
+
+### 16 bit registers
+
+- AX, BX, CX, DX, SI, DI, BP, SP
+
+### 32 bit registers
+
+- EAX, EBX, ECX, EDX, ESI, EDI, EBP, ESP
+
+### 64 bit registers
+
+- RAX, RBX, RCX, RDX, RSI, RDI, RBP, RSP, R8, R9, R10, R11, R12, R13, R14, R15
+
+
 
 
 
