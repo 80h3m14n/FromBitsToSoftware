@@ -2,11 +2,11 @@
 
 FromBitsToSoftware is my digital lab notebook — a chronicle of my evolution as a software developer and cybersecurity enthusiast.
 
-It’s more than just documentation. It’s a deep dive into the essence of computing — from the raw ones and zeros that power machines, to the abstract beauty of programming languages, paradigms, and logic.
+It’s more than just documentation, it’s a deep dive into the essence of computing, from the raw ones and zeros that power machines, to the abstract beauty of programming languages, paradigms, and logic.
 
 This repo follows my journey as I explore how simple bits become complex systems — code that thinks, creates, and secures.
 
-## Table of Contents
+## Table of Content
 
 - [Introduction to Programming](intro-to-programming.md)
 - [Programming Language Paradigms](programming-language-paradigms)
@@ -14,10 +14,10 @@ This repo follows my journey as I explore how simple bits become complex systems
 - [Assembly Language](assembly)
 - [Machine Code](machine-code)
 - [Projects](projects/README)
-- [Notes & Reflections](notes)
+- [Contributions](contributions)
 
 
-## 🧩 The Journey
+## The Journey
 
 Every file, snippet, and note here represents a checkpoint — an experiment, a discovery, or a failed attempt that taught me something real about how computers think.
 
@@ -79,6 +79,19 @@ Reflections on learning to think computationally
 > Procedural vs Object-Oriented vs Functional vs Logic programming.
 How different paradigms shape how we think and write code.
 
+| Paradigm     | Languages     |
+| ------------ | ------------- |
+| Functional | C <br> Scala <br> F# <br> Haskell <br> Lisp |
+| Object-oriented | C++ <br> Java <br> Python <br> Visual Basic |
+| Procedural | C <br> C# <br> Java <br> Pascal
+| Scripting | JavaScript <br> Perl <br> PHP <br> Ruby |
+| Markup | HTML <br> Markdown <br> XML |
+| Imperative programming
+| Generic programming |
+| Esoteric PL (esolangs) | - Piet <br> - Whitespace <br>  Shakespeare PL (SPL) <br> - Chef <br> - Malbolge <br> - Brainfuck <br> - JSFuck <br> - C-- <br> - emojicode <br> - Velato |
+
+
+
 
 Choose a beginner-friendly language i.e python
 Build small projects
@@ -127,29 +140,43 @@ The language of hardware — where abstraction ends and raw logic begins.
 
 
 
+| Binary| Decimal | Octal| Hex |
+|------|----|----|---|
+| 0000 | 00 | 0  | 0 |
+| 0001 | 01 | 1  | 1 |
+| 0010 | 02 | 2  | 2 |
+| 0011 | 03 | 3  | 3 |
+| 0100 | 04 | 4  | 4 |
+| 0101 | 05 | 5  | 5 |
+| 0110 | 06 | 6  | 6 |
+| 0111 | 07 | 7  | 7 |
+| 1000 | 08 | 10 | 8 |
+| 1001 | 09 | 11 | 9 |
+| 1010 | 10 | 12 | A |
+| 1011 | 11 | 13 | B |
+| 1100 | 12 | 14 | C |
+| 1101 | 13 | 15 | D |
+| 1110 | 14 | 16 | E |
+| 1111 | 15 | 17 | F |
+
+
 &nbsp;
 
 # Projects
 
-> Hands-on builds, experiments, and mini tools created along the way.
+Hands-on builds, experiments, and mini tools created along the way.
 Focused on learning, breaking, and optimizing code.
+Opensource contributions
 
-- Hello world programes
-
+- Console-base applications
+- GUI appplications
+- Web-based applications
 - Building a programming language
 
 
 
 &nbsp;
 
-
-# Notes & Reflections
-
-> Random thoughts, insights, debugging notes, and "aha!" moments from the journey.
-
-
-
-&nbsp;
 
 
 ## ✍️ Contributions
