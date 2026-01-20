@@ -10,7 +10,6 @@ This repo follows my journey as I explore how simple bits become complex systems
 
 - [Introduction to Programming](intro-to-programming.md)
 - [Programming Language Paradigms](programming-language-paradigms)
-- [Esoteric Languages (Esolangs)](esolangs)
 - [Assembly Language](assembly)
 - [Machine Code](machine-code)
 - [Projects](projects/README)
@@ -98,13 +97,27 @@ Build small projects
 
 &nbsp;
 
-# Esoteric Languages (Esolangs)
+## OOP
 
-> Exploring weird, creative, or absurd languages that challenge normal coding conventions.
-Brainfuck, Befunge, Malbolge, and more.
+- Classes
+- Polymorphism
+- Inheritance
+- Encapsulation
+- Abstraction
 
 
 
+## Esoteric Languages (Esolangs)
+
+Niche area exploring weird, creative, or absurd programming languages that challenge normal coding conventions but fascinating when I came to understand the underlying principles.
+
+Programming as an art
+- Visual art
+- Music
+- Poems
+
+
+**NOTE:**  Keep in mind, actually writing substantial code in these is extremely difficult.
 
 &nbsp;
 
