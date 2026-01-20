@@ -55,11 +55,21 @@ Reflections on learning to think computationally
 
 ### Tooling
 
-- Integrated Development Environment  (IDE)
-- Package managers
-- Version managers
-- Compilers
-- Debuggers
+
+| Category | Tools |
+| -------- | ----- |
+| Integrated Development Environment  (IDE) | Desktop IDEs:   <br> - Visual studio code  <br> - Vscode  <br> - Android studio  <br> - Codeblocks  <br> - Apache Netbean  <br><br/> Web-based IDEs:  <br> - [Github.dev](https://github.dev)  <br> - [Google idx](https://idx.google.com)  <br> - [Replit](https://replit.com)  <br> - [Cloud shell editor](https://shell.cloud.google.com/)  <br> - [Codesandbox.io](https://codesandbox.io) <br> - [Google colab](https://colab.research.google.com/)  <br> - [Vscode.dev](https://vscode.dev/)  <br> - [Dartpad.dev](https://dartpad.dev) |
+| Agentic Development Environment (AI-powered) | - [Google Antigravity](https://antigravity.google/) <br> - [CodeConductor](https://codeconductor.ai/) <br> - [Cursor](https://cursor.com/) <br> - [Warp](https://www.warp.dev/) <br> - [Windsurf](https://windsurf.com/editor) |
+| Text editors | - Notepad  <br> - Nano  <br> - vim |
+| Virtual environment | - VMware  <br> - Virtual Box  <br> - Microsoft Hyper-V <br> - QEMU |
+| Container | - Docker  <br> - Kubernetes |
+| Compatibility layers | - [Wine](https://winehq.org)  <br> - PlayOnLinux  <br> - PlayOnMac  <br> - CrossOver  <br> - Lutris  <br> - Proton  <br> - DOSBox  <br> - ScummVM |
+| Virtual interpreters | - Anaconda  <br> - virtualenv  <br> - pyenv  <br> - Poetry  <br> - rbenv |
+| Emulators | - Geny motion  <br> - Nox player  <br> - Bluestacks |
+| Remote interpreters | - WSL  <br> - SSH tunneling |
+| Compilers | - Gcc  <br>- Mono  <br> - llvm <br> - Clang |
+| Code formatters | - [beautifier.io](https://beautifier.io)  <br> - [de4js](https://lelinhtinh.github.io/de4js) |
+| Offline docs | - [Zeal](https://github.com/zealdocs/zeal) <br> - [Dash](https://kapeli.com/dash)  <br> - [Devdocs](https://devdocs.io/offline) |
 
 
 &nbsp;
