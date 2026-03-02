@@ -1,6 +1,6 @@
-# Dockerfile.php-apache (reusable base)
+# Dockerfile (reusable base)
 # Usage:
-# docker build -t myphp:83-apache -f Dockerfile.php-apache .
+# docker build -t myphp:83-apache .
 # or with Podman: podman build ...
 
 FROM php:8.3-apache-bookworm   
