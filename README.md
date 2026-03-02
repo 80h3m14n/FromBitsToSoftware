@@ -106,6 +106,8 @@ Build small projects
 - Abstraction
 
 
+&nbsp;
+
 
 ## Esoteric Languages (Esolangs)
 
@@ -127,19 +129,84 @@ Programming as an art
 Learning how high-level languages translate into machine operations.
 
 
-### 16 bit registers
+## Data types
 
-- AX, BX, CX, DX, SI, DI, BP, SP
+A data type refers to the type of value a register or memory location can hold.
 
-### 32 bit registers
+**Some specific data types in assembly include:**
 
-- EAX, EBX, ECX, EDX, ESI, EDI, EBP, ESP
+| Data type        | Bits | Examples        |
+|------------------|------|-----------------|
+| Bytes            | 8    | - AL, BL, CL    |
+| Word             | 16   | - AX, BX, CX    |
+| Double word      | 32   | - EAD, EBX, ECX |
+| Quad word        | 64   |                 |
+| Double Quad word |      |                 |
+| Integer          |      | 1, 2, 3         |
+| Binary           | 1010
+| Decimal          | | 12, 34 |
+| Hex              | | x08 |
 
-### 64 bit registers
+  
 
-- RAX, RBX, RCX, RDX, RSI, RDI, RBP, RSP, R8, R9, R10, R11, R12, R13, R14, R15
+## Instructions
+
+Instructions are commands that perform a specific operation such as moving data, performing arithmetic or storing values.  
+
+An Instruction represents a single operation for the CPU to perform. 
+
+**Typess of instructions**
 
 
+- Data transfer instructions
+- Arithmetic  instructions
+- Control-flow instructions
+- Bit manipulation instructions
+- Logic/Bitwise instructions
+- Input/output instructions
+- System instructions
+
+
+
+
+## Registers 
+ 
+A register is a small amount of data storage available to the CPU whose content can be accessed more quickly than storage available elsewhere.  
+
+**Categories of registers**
+
+- Address registers
+- Offset register
+- Segment registers
+- General purpose registers
+- Special purpose registers
+- Control Registers
+- Debug registers
+- System table pointer registers
+
+### General purpose registers   
+
+General purpose registers are used by the CPU during execution.  
+
+
+| Description | x16 | x32 | x86 | x64  |
+|-------------|-----|-----|-----|------|
+| Accumulator | al  | ax  | EAX | RAX  |
+| Base register | bl  | bx  | EBX | RBX  |
+| Counter (loops,shifts) | cl  | cx  | ECX | RCX  |
+| Data register | dl  | dx  | EDX | RDX  |
+| Source index in strings | sil | si  | ESI | RSI  |
+| Destination index | dil | di  | EDI | RDI  |
+| Base pointer  | bpl | bp  | EBP | RBP  |
+| Stack pointer  | spl | sp  | ESP | RSP  |
+| | r8b | r8W | r8D | r8b  |
+| | R9B | R9W | R9D | R9  |
+| | R10B | R10W | R10D | R10 |
+| | R11B | R11W | R11D |  R11 |  
+| | R12B | R12W | R12D | R12 |
+| | R13B | R13W | R13D | R13 |
+| | R14B | R14W | R14D | R14 | 
+| | R15B | R15W | R15D | R15 |
 
 
 
