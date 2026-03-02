@@ -1,0 +1,54 @@
+# In each project, drop this file that references the Docker image (no build step per project)
+# Usage:
+#     docker compose up -d # or podman-compose...
+version: '3.9'
+
+services:
+  web:
+    image: myphp:83-apache          # ← your shared image
+    container_name: ${APP_NAME}-web
+    ports:
+      - "${APP_PORT}:80"
+    volumes:
+      - .:/var/www/html               # your code
+      - ./docker/vhost.conf:/etc/apache2/sites-enabled/000-default.conf  # project-specific if needed
+      - ./docker/php.ini:/usr/local/etc/php/conf.d/extra.ini            # overrides if any
+    depends_on:
+      - db
+    environment:
+      - APP_ENV=dev
+
+  db:
+    image: mariadb:10.11            # or 11.x 
+    container_name: ${APP_NAME}-db
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASS}
+      MYSQL_DATABASE: ${MYSQL_DB}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASS}
+    ports:
+      - "${DB_PORT}:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mariadb-admin", "ping", "-h", "localhost"]
+      interval: 5s
+      retries: 5
+
+  phpmyadmin:
+    image: phpmyadmin:apache        # official, always up-to-date
+    container_name: ${APP_NAME}-pma
+    ports:
+      - "${PMA_PORT}:80"
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: ${MYSQL_ROOT_PASS}
+    depends_on:
+      - db
+
+volumes:
+  db_data:
+
+
+  
