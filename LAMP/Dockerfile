@@ -3,7 +3,8 @@
 # docker build -t myphp:83-apache -f Dockerfile.php-apache .
 # or with Podman: podman build ...
 
-FROM php:8.3-apache-bookworm   # or 8.2, 8.4 — pick your main version
+FROM php:8.3-apache-bookworm   
+# or 8.2, 8.4 — pick your main version
 
 # Install common system deps + PHP extensions
 RUN apt-get update && apt-get install -y \
