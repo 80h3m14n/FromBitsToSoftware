@@ -85,19 +85,23 @@ How different paradigms shape how we think and write code.
 | Procedural | C <br> C# <br> Java <br> Pascal
 | Scripting | JavaScript <br> Perl <br> PHP <br> Ruby |
 | Markup | HTML <br> Markdown <br> XML |
-| Imperative programming
-| Generic programming |
 | Esoteric PL (esolangs) | - Piet <br> - Whitespace <br>  Shakespeare PL (SPL) <br> - Chef <br> - Malbolge <br> - Brainfuck <br> - JSFuck <br> - C-- <br> - emojicode <br> - Velato |
+| Logic programming | - Datalog <br> - Prolog <br> - Soufflé |
+| Imperative programming |
+| Generic programming |
 
 
 
+- Start with a beginner-friendly language i.e python
+- Build small projects
 
-Choose a beginner-friendly language i.e python
-Build small projects
+
 
 &nbsp;
 
-## OOP
+## Object-oriented Programming (OOP)
+
+Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic.
 
 - Classes
 - Polymorphism
